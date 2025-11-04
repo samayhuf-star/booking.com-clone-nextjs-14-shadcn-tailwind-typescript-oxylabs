@@ -56,7 +56,7 @@ async function SearchPage({ searchParams }: Props) {
                 <div>
                   <Link
                     href={item.link}
-                    className="font-bold text-blue-500 hover:text-blue-600 hover:underline"
+                    className="font-bold text-indigo-600 hover:text-violet-600 hover:underline"
                   >
                     {item.title}
                   </Link>
@@ -70,7 +70,7 @@ async function SearchPage({ searchParams }: Props) {
                       <p className="text-xs">{item.rating_count}</p>
                     </div>
 
-                    <p className="flex items-center justify-center font-bold text-sm w-10 h-10 text-white bg-blue-900 rounded-lg flex-shrink-0">
+                    <p className="flex items-center justify-center font-bold text-sm w-10 h-10 text-white bg-gradient-to-br from-indigo-600 via-violet-600 to-fuchsia-600 rounded-lg flex-shrink-0">
                       {item.rating || "N/A"}
                     </p>
                   </div>

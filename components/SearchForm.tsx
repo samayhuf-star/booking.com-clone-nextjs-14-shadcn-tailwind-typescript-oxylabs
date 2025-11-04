@@ -215,7 +215,7 @@ function SearchForm() {
           </div>
 
           <div className="mt-auto">
-            <Button type="submit" className="bg-blue-500 text-base">
+            <Button type="submit" className="bg-gradient-to-r from-indigo-600 via-violet-600 to-fuchsia-600 hover:from-indigo-700 hover:via-violet-700 hover:to-fuchsia-700 text-base text-white font-semibold shadow-lg">
               Search
             </Button>
           </div>

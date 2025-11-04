@@ -4,13 +4,13 @@ function LoadingResults() {
   return (
     <section>
       <div className="mx-auto max-w-7xl">
-        <p className="text-center animate-pulse font-bold text-[#013B94] pt-10">
+        <p className="text-center animate-pulse font-bold text-indigo-600 pt-10">
           Sit tight - were just scanning the market for the best deals!
         </p>
       </div>
 
       <div className="flex justify-center py-10">
-        <div className="w-10 h-10 bg-[#013B94] rounded-full animate-bounce"></div>
+        <div className="w-10 h-10 bg-gradient-to-br from-indigo-600 via-violet-600 to-fuchsia-600 rounded-full animate-bounce"></div>
       </div>
 
       <div className="space-y-2 p-5">
